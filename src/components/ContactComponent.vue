@@ -1,6 +1,6 @@
 <template>
   <div class="fixed row w-100">
-    <h1 class="col-12">
+    <h1 class="col-12 mb-5">
       Contact Me!
     </h1>
     <div class="col-3 offset-3">
