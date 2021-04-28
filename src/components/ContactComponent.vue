@@ -3,12 +3,12 @@
     <h1 class="col-12 mb-5">
       Contact Me!
     </h1>
-    <div class="col-3 offset-3">
+    <div class="col-12 col-md-3 offset-md-3">
       <i class="fa fa-envelope h4" aria-hidden="true"></i>
       <h4>contact@chrisjcurry.me</h4>
     </div>
-    <div class="col-3">
-      <i class="fa fa-linkedin pr-3 h4"></i><br>
+    <div class="col-12 col-md-3">
+      <i class="fa fa-linkedin h4"></i><br>
       <a href="linkedin.com/in/chrisjcurry/" class="text-light h4">Linkedin
       </a>
     </div>

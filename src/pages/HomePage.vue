@@ -84,6 +84,9 @@ export default {
     @else {
       background: linear-gradient(#9b30c0, #9b30c0);
       color: #fff;
+      @media not screen and (min-width: 640px) {
+        top: 350vh;
+      }
       @media screen and (min-width: 640px) {
           top: (125vh * ($i - 1));
       }
@@ -102,6 +105,7 @@ export default {
       @media screen and (min-width: 1200px) {
           top: (100vh * ($i - 1));
       }
+
       height: 50vh;
     }
     z-index: ($i);

@@ -16,7 +16,7 @@
         <div class="card-text">
           <h3>Technologies Used:</h3>
           <h5 class="row text-left">
-            <div class="col-5 offset-lg-2 offset-1 pr-0 mr-0">
+            <div class="col-4 offset-2 pr-0 mr-0">
               <ul>
                 <li>Vue.js</li>
                 <li>Node.js/<br>Express</li>
@@ -50,7 +50,7 @@
         <div class="card-text">
           <h3>Technologies Used:</h3>
           <h5 class="row text-left">
-            <div class="col-5 offset-lg-2 offset-1 pr-0 mr-0">
+            <div class="col-4 offset-lg-2 offset-1 pr-0 mr-0">
               <ul>
                 <li>Vue.js</li>
                 <li>MySQL</li>
