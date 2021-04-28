@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed row w-100">
+  <div class="fixed row w-100 m-1">
     <h1 class="col-12 mb-5">
       Contact Me!
     </h1>
@@ -9,7 +9,8 @@
     </div>
     <div class="col-12 col-md-3">
       <i class="fa fa-linkedin h4"></i><br>
-      <a href="linkedin.com/in/chrisjcurry/" class="text-light h4">Linkedin
+      <a href="linkedin.com/in/chrisjcurry/" class="text-light h4">
+        Linkedin
       </a>
     </div>
     <div class="col-3"></div>
