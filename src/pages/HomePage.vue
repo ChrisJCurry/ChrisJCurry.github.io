@@ -1,23 +1,16 @@
 <template>
+  <div class="oop text-center" @click="toTop">
+    Top
+  </div>
   <div class="container p-0 m-0">
     <section class="section">
-      <div class="oop" @click="toTop">
-        Top
-      </div>
-      <div class="fixed">
-        <h1>Chris Curry</h1>
-        <h3>Full-stack Software Developer</h3>
-      </div>
+      <MainComponent />
     </section>
     <section class="section">
-      <div class="fixed">
-        <h1>Applications</h1>
-      </div>
+      <ApplicationComponent />
     </section>
     <section class="section">
-      <div class="fixed">
-        <h1>Contact Me!</h1>
-      </div>
+      <ContactComponent />
     </section>
   </div>
 </template>
@@ -85,20 +78,20 @@ header {
   .section:nth-child(#{$i}) {
     @if($i==1) {
       background-image: url('../assets/1282257.jpg');
-      height: 50rem;
+      height: 100vh;
       color: #000;
       top: 0;
     }
     @else if($i==2) {
-      background-color: #953bc1;
-      color: #fff;
-      top: (50rem * ($i - 1));
-    }
-    @else {
-      box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
       background-color: #5fb0b7;
       color: #fff;
-      top: (50rem * ($i - 1));
+      height: 250vh;
+      top: (100vh * ($i - 1));
+    }
+    @else {
+      background-color: #953bc1;
+      color: #fff;
+      top: (150vh * ($i - 1));
     }
     z-index: ($i);
     .fixed {
@@ -109,11 +102,12 @@ header {
 
 .oop {
   position: fixed;
-  z-index: auto;
+  z-index: 99;
   width: 100%;
-  height: 2rem;
+  height: 5vh;
   align-content: center;
   justify-content: center;
   background: linear-gradient(141deg, #48ded4 0%, #a026bf 51%, #e82c75 75%);
 }
+
 </style>
