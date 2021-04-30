@@ -110,13 +110,6 @@
 
 <script>
 export default {
-  name: 'ApplicationComponent',
-  setup() {
-    return {
-
-    }
-  }
-
 }
 </script>
 

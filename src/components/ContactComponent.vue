@@ -18,15 +18,7 @@
 </template>
 
 <script>
-export default {
-  name: 'ContactComponent',
-  setup() {
-    return {
 
-    }
-  }
-
-}
 </script>
 
 <style scoped lang="scss">

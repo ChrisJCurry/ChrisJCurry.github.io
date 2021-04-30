@@ -7,12 +7,6 @@
 
 <script>
 export default {
-  name: 'MainComponent',
-  setup() {
-    return {
-
-    }
-  }
 
 }
 </script>
